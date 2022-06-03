@@ -80,7 +80,7 @@ function moveInvaders() {
     resultsDisplay.innerHTML = 'GAME OVER'
     clearInterval(invadersID)
   }
-
+// 
   for (let i = 0; i < alienInvaders.length; i++) {
     if (alienInvaders[i] > squares.length) {
       resultsDisplay.innerHTML = 'GAME OVER'
